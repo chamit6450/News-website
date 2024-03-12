@@ -1,0 +1,133 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #eee; 
+    display: flex; 
+  justify-content: center; 
+  align-items: center;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 650px;
+    align-items: center;
+    
+  }
+ 
+  
+  .btnn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .article {
+    margin: 20px; 
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px; 
+  }
+  
+  .container {
+    border-spacing: 20px; 
+    
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+ 
+  
+  .img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    margin-right: 15px;
+    max-width: 70%; 
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.query{
+      text-align: center;
+    
+  }
+ 
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin-right: 5px;
+    padding: 6px 12px;
+    background-color: #eee;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+  }
+
+  .btn{
+    background-color: #007bff;
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+  
